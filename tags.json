@@ -1,0 +1,10 @@
+[
+  {
+    "tag": "jwt",
+    "files": [
+      "docs/topics/jwt/jwt-signature-algorithm-downgrade.md",
+      "docs/topics/jwt/weak-symmetric-jwt-secret-exploit.md"
+    ]
+  }
+
+]
