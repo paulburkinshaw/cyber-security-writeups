@@ -4,7 +4,7 @@ This section documents multi-stage attack chains demonstrating how individual te
 
 ## Chains
 
-- [001 – Account Compromise via Enumeration + Reset Token](attack-chain-001-account-compromise.md)
+- [001 – Account Compromise via Enumeration and Reset Token](./attack-chain-001-account-compromise.md)
 - 
 
 > All chains are documented from both offensive and defensive perspectives.

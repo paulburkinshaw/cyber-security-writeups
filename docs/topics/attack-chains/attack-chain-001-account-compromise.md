@@ -1,18 +1,18 @@
 ---
 
-title: Attack Chain: Account Compromise via Enumeration + Predictable Reset Token
+title: Attack Chain: Account Compromise via Enumeration and Predictable Reset Token
 tags: [enumeration, brute-force, authentication, web]
 difficulty: intermediate
 platform: tryhackme
 
 ---
 
-# Attack Chain: Account Compromise via Enumeration + Predictable Reset Token
+# Attack Chain: Account Compromise via Enumeration and Predictable Reset Token
 
 This attack chain simulates a real-world situation where **verbose login errors** and a **weak password reset mechanism** are chained together to compromise a user's account.  
 It combines:
-- [enumeration-via-verbose-errors](..\authentication-attacks\authentication-enumeration-and-brute-force\enumeration-via-verbose-errors.md)
-- [brute-forcing-predictable-password-reset-tokens](..\authentication-attacks\authentication-enumeration-and-brute-force\brute-forcing-predictable-password-reset-tokens.md)
+- [enumeration-via-verbose-errors](..\authentication\authentication-enumeration-and-brute-force\enumeration-via-verbose-errors.md)
+- [brute-forcing-predictable-password-reset-tokens](..\authentication\authentication-enumeration-and-brute-force\brute-forcing-predictable-password-reset-tokens.md)
 
 ---
 
@@ -26,7 +26,7 @@ It combines:
 
 ### 1. Enumeration via Verbose Error Messages  
 The login form leaks whether an email address exists based on the error message returned.  
-[Read full write-up →](..\authentication-attacks\authentication-enumeration-and-brute-force\enumeration-via-verbose-errors.md)
+[Read full write-up →](..\authentication\authentication-enumeration-and-brute-force\enumeration-via-verbose-errors.md)
 
 **Outcome:** Valid user email address is discovered.
 
@@ -34,7 +34,7 @@ The login form leaks whether an email address exists based on the error message 
 
 ### 2. Brute-Forcing a Predictable Password Reset Token  
 The password reset feature uses a numeric token in the URL. By brute-forcing these tokens, an attacker can trigger the password reset flow and obtain a new password for the targeted account.  
-[Read full write-up →](..\authentication-attacks\authentication-enumeration-and-brute-force\brute-forcing-predictable-password-reset-tokens.md)
+[Read full write-up →](..\authentication\authentication-enumeration-and-brute-force\brute-forcing-predictable-password-reset-tokens.md)
 
 **Outcome:** Gained access to the account via forced password reset.
 

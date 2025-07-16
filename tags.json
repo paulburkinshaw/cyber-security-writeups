@@ -5,6 +5,87 @@
       "docs/topics/jwt/jwt-signature-algorithm-downgrade.md",
       "docs/topics/jwt/weak-symmetric-jwt-secret-exploit.md"
     ]
+  },
+  {
+    "tag": "authentication",
+    "files": [
+      "docs/topics/authentication/authentication-enumeration-and-brute-force/brute-forcing-predictable-password-reset-tokens.md",
+      "docs/topics/authentication/authentication-enumeration-and-brute-force/enumeration-via-verbose-errors.md",
+      "docs/topics/authentication/authentication-enumeration-and-brute-force/exploiting-http-basic-authentication.md"
+    ]
+  },
+  {
+    "tag": "brute-force",
+    "files": [
+      "docs/topics/authentication/authentication-enumeration-and-brute-force/brute-forcing-predictable-password-reset-tokens.md",
+      "docs/platforms/try-hack-me/hammer-ctf/hammer-ctf-writeup.md"
+    ]
+  },
+  {
+    "tag": "enumeration",
+    "files": [
+      "docs/topics/authentication/authentication-enumeration-and-brute-force/enumeration-via-verbose-errors.md"
+    ]
+  },
+  {
+    "tag": "sql-injection",
+    "files": [
+      "docs/topics/injection/sql-injection/second-order-sql-injection-attack.md"
+    ]
+  },
+  {
+    "tag": "nosql-injection",
+    "files": [
+      "docs/topics/injection/nosql-injection/nosql-injection-attack.md"
+    ]
+  },
+  {
+    "tag": "injection",
+    "files": [
+      "docs/topics/injection/sql-injection/second-order-sql-injection-attack.md",
+      "docs/topics/injection/nosql-injection/nosql-injection-attack.md"
+    ]
+  },
+  {
+    "tag": "oauth",
+    "files": [
+      "docs/topics/oauth/csrf-in-oauth.md"
+    ]
+  },
+  {
+    "tag": "csrf",
+    "files": [
+      "docs/topics/oauth/csrf-in-oauth.md"
+    ]
+  },
+  {
+    "tag": "secure-coding",
+    "files": [
+      "docs/topics/secure-coding/secure-coding-checklist.md"
+    ]
+  },
+  {
+    "tag": "owasp",
+    "files": [
+      "docs/topics/owasp-top-10/a01-2021-broken-access-control.md"
+    ]
+  },
+  {
+    "tag": "access-control",
+    "files": [
+      "docs/topics/owasp-top-10/a01-2021-broken-access-control.md"
+    ]
+  },
+  {
+    "tag": "attack-chain",
+    "files": [
+      "docs/topics/attack-chains/attack-chain-001-account-compromise.md"
+    ]
+  },
+  {
+    "tag": "tryhackme",
+    "files": [
+      "docs/platforms/try-hack-me/hammer-ctf/hammer-ctf-writeup.md"
+    ]
   }
-
 ]
