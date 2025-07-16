@@ -2,24 +2,24 @@
 
 - **Authentication Attacks**
   - Enumeration, brute force, password reset exploits  
-  [`/authentication`](./docs/topics/authentication)
+  [`/authentication`](./authentication)
 
 - **Injection Attacks**
   - SQLi, NoSQLi, and second-order injection techniques  
-  [`/injection`](./docs/topics/injection)
+  [`/injection`](./injection)
 
 - **JWT Vulnerabilities**
   - Algorithm downgrade and weak secret exploitation  
-  [`/jwt`](./docs/topics/jwt)
+  [`/jwt`](./jwt)
 
 - **OAuth Flaws**
   - CSRF and insecure OAuth flows  
-  [`/oauth`](./docs/topics/oauth)
+  [`/oauth`](./oauth)
 
 - **Secure Coding**
   - Secure coding checklist and principles  
-  [`/secure-coding`](./docs/topics/secure-coding)
+  [`/secure-coding`](./secure-coding)
 
 - **OWASP Top 10**
   - Mapped vulnerabilities, e.g., Broken Access Control  
-  [`/owasp-top-10`](./docs/topics/owasp-top-10)
+  [`/owasp-top-10`](./owasp-top-10)
