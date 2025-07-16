@@ -1,13 +1,13 @@
 ---
 
-title: Attack Chain: Account Compromise via Enumeration and Predictable Reset Token
+title: Attack Chain 001 - Account Compromise via Enumeration and Predictable Reset Token
 tags: [enumeration, brute-force, authentication, web]
 difficulty: intermediate
 platform: tryhackme
 
 ---
 
-# Attack Chain: Account Compromise via Enumeration and Predictable Reset Token
+# Attack Chain 001 - Account Compromise via Enumeration and Predictable Reset Token
 
 This attack chain simulates a real-world situation where **verbose login errors** and a **weak password reset mechanism** are chained together to compromise a user's account.  
 It combines:
